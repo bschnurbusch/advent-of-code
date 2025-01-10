@@ -1,21 +1,11 @@
 let playerOnePositions = [
-'1': 0,
-'2': 0,
-'3': 0,
-'4': 1,
-'5': 0,
-'6': 0,
-'7': 0,
-'8': 0,
-'9': 0,
-'10': 0
 ]
 
 
 let playerOneScore = 0;
 let playerTwoScore = 0;
-let playerOnePosition = 4;
-let playerTwoPosition = 9;
+let playerOnePosition = 0;
+let playerTwoPosition = 0;
 let diceRolls = 0;
 let nextDiceRoll = 1;
 

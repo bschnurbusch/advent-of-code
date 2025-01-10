@@ -52,11 +52,11 @@
 // let program = '0,3,5,4,3,0';
 
 // real input
-// let registerA = 27575648;
+// let registerA = 0;
 // let registerB = 0;
 // let registerC = 0;
 
-// let program = '2,4,1,2,7,5,4,1,1,3,5,5,0,3,3,0';
+// let program = '';
 
 // testing
 // try 4859823314775
@@ -65,8 +65,8 @@ let registerA = 37221261688081;
 let registerB = 0;
 let registerC = 0;
 
-let program = '2,4,1,2,7,5,4,1,1,3,5,5,0,3,3,0';
-let matchThis = [2,4,1,2,7,5,4,1,1,3,5,5,0,3,3,0];
+let program = '';
+let matchThis = [];
 
 
 
@@ -195,11 +195,11 @@ console.log(`output matches? ${output.toString() === program}`);
 // let moveOn = false;
 // let startingA = 4652657710990;
 
-// '2,4,1,2,7,5,4,1,1,3,5,5,0,3,3,0'
+// ''
 // output = [2, 4, 1, 2, 7, 5, 4, 1, 1, 3, 5, 5, 0, 3, 3, 0];
 
 // 10000000
-// 27575648
+// 
 
 // while (foundMatch === false) {
 //   moveOn = false;
@@ -357,7 +357,7 @@ function getNewComboValue(operand) {
 
 
 // let startingPoint = 1;
-let expectedVal = [2,4,1,2,7,5,4,1,1,3,5,5,0,3,3,0];
+let expectedVal = [];
 // let expectedVal = [0,3,5,4,3,0];
 let testVals = [[8,2]];
 let results = [];
@@ -451,8 +451,8 @@ while (testVals.length > 0) {
         registerB = 0;
         registerC = 0;
 
-        program = '2,4,1,2,7,5,4,1,1,3,5,5,0,3,3,0';
-        matchThis = [2,4,1,2,7,5,4,1,1,3,5,5,0,3,3,0];
+        program = '';
+        matchThis = [];
 
         programArray = program.split(',');
         for (let i = 0; i < programArray.length; i += 1) {
